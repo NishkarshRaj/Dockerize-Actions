@@ -1,0 +1,12 @@
+name: 'Dockerize-Actions'
+description: 'Dockerize GitHub Repository or its built end-application and deploy on GitHub Packages'
+author: 'Nishkarsh Raj'
+inputs:
+  src:
+    description: 'Publish Docker Image of GitHub Repository to GitHub Packages'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'check-circle'
+  color: 'green'
